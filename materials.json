@@ -7,18 +7,13 @@
     "specific_heat_liquid": 0.79,
     "specific_heat_solid": 0.54,
     "latent_heat": 390,
-    "bash_resist": 6,
-    "cut_resist": 6,
-    "bullet_resist": 5,
-    "acid_resist": 6,
-    "fire_resist": 7,
-    "elec_resist": 0,
     "chip_resist": 30,
     "repaired_with": "dks_blend_scrap",
     "dmg_adj": [ "marked", "dented", "smashed", "shattered" ],
     "bash_dmg_verb": "dented",
     "cut_dmg_verb": "scratched",
-    "burn_products": [ [ "dks_blend_scrap", 1 ] ]
+    "burn_products": [ [ "dks_blend_scrap", 1 ] ],
+    "resist":{"bash":6.0, "cut":6.0, "bullet":5.0, "acid":6.0, "heat":7.0, "electric":0  }
   },
   {
     "type": "material",
@@ -29,13 +24,6 @@
     "specific_heat_solid": 1.7,
     "latent_heat": 42,
     "soft": true,
-    "reinforces": true,
-    "bash_resist": 3,
-    "cut_resist": 3,
-    "bullet_resist": 2,
-    "acid_resist": 9,
-    "fire_resist": 2,
-    "elec_resist": 2,
     "chip_resist": 7,
     "breathability": "SECOND_SKIN",
     "repaired_with": "dks_weave_scrap",
@@ -47,9 +35,12 @@
       { "fuel": 1, "smoke": 1, "burn": 1, "volume_per_turn": "650 ml" },
       { "fuel": 1, "smoke": 1, "burn": 1 },
       { "fuel": 1, "smoke": 1, "burn": 2 }
-    ]
+    ],
+    "repair_difficulty": 5,
+    "resist":{"bash":3.0, "cut":3.0, "bullet":2.0, "acid":9.0, "heat":2.0, "electric":2.0  }
   },
   {
+    "//": "Basically Alien Plastic, literally copied over from regular plastic in some parts",
     "type": "material",
     "id": "dks_biopoly_mat",
     "name": "Collagenic Polymer",
@@ -57,12 +48,7 @@
     "specific_heat_liquid": 1.6,
     "specific_heat_solid": 1.6,
     "latent_heat": 50,
-    "bash_resist": 3,
-    "cut_resist": 3,
-    "bullet_resist": 2,
-    "acid_resist": 7,
-    "fire_resist": 5,
-    "elec_resist": 2,
+    "wind_resist": 90,
     "chip_resist": 6,
     "repaired_with": "dks_polymer_scrap",
     "salvaged_into": "dks_polymer_scrap",
@@ -73,7 +59,8 @@
       { "fuel": 1, "smoke": 2, "burn": 1, "volume_per_turn": "750 ml" },
       { "fuel": 1, "smoke": 3, "burn": 2 },
       { "fuel": 1, "smoke": 5, "burn": 5 }
-    ]
+    ],
+    "resist":{"bash":3.0, "cut":3.0, "bullet":2.0, "acid":7.0, "heat":5.0, "electric":2.0  }
   },
   {
     "type": "material",
@@ -83,12 +70,6 @@
     "specific_heat_liquid": 1.6,
     "specific_heat_solid": 1.6,
     "latent_heat": 200,
-    "bash_resist": 1,
-    "cut_resist": 1,
-    "bullet_resist": 1,
-    "acid_resist": 2,
-    "fire_resist": 1,
-    "elec_resist": 1,
     "chip_resist": 2,
     "dmg_adj": [ "lightly damaged", "damaged", "very damaged", "thoroughly damaged" ],
     "bash_dmg_verb": "pulped",
@@ -97,6 +78,7 @@
       { "fuel": 1, "smoke": 2, "burn": 1, "volume_per_turn": "750 ml" },
       { "fuel": 1, "smoke": 3, "burn": 2 },
       { "fuel": 1, "smoke": 5, "burn": 5 }
-    ]
+    ],
+    "resist":{"bash":1.0, "cut":1.0, "bullet":1.0, "acid":2.0, "heat":1.0, "electric":1.0  }
   }
 ]
