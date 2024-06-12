@@ -36,7 +36,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "lurker",
-    "base_faction": "gator",
+    "base_faction": "mutant_piscivores",
     "hate": [ "fish", "aquatic_predator" ],
     "by_mood": [ "gator" ]
   },
@@ -55,7 +55,7 @@
   {
     "type": "MONSTER_FACTION",
     "name": "gator",
-    "copy-from": "gator",
+    "copy-from": "mutant_piscivores",
     "by_mood": [ "lurker" ]
   }
 ]

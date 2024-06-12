@@ -29,7 +29,6 @@
     "monsters": [
       { "monster": "dks_mon_crystal_wall", "weight": 510 },
       { "monster": "dks_mon_crystal_shriek", "weight": 125, "cost_multiplier": 5 },
-      { "monster": "dks_mon_crystal_whip", "weight": 125, "cost_multiplier": 5 },
       { "monster": "dks_mon_crystal_zap", "weight": 125, "cost_multiplier": 7 },
       { "monster": "dks_mon_crystal_hive", "weight": 115, "cost_multiplier": 10 }
     ]

@@ -100,12 +100,11 @@
     "symbol": "~",
     "quench": 5,
     "description": "A lump of alien hydrogel with small writhing specks in it.  Useful in crafting.  You could 'drink' it, but there's no way it would be pleasant.",
-    "price": 0,
-    "price_postapoc": 0,
     "material": [ "dks_biogel_mat" ],
     "volume": "500 ml",
     "phase": "liquid",
     "category": "chems",
+    "charges": 1,
     "fun": -12,
     "flags": [ "TRADER_AVOID" ]
 
