@@ -87,7 +87,7 @@
     "symbol": "=",
     "color": "green",
     "looks_like": "battery",
-    "flags": [ "NO_SALVAGE", "LEAK_DAM", "RADIOACTIVE", "Trader_Avoid" ]
+    "flags": [ "NO_SALVAGE", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID" ]
   },
   {
     "type": "COMESTIBLE",
