@@ -236,5 +236,118 @@
     "copy-from": "specops",
     "name": "Special Operator",
     "description": "You were the best of the best, the military's finest.  That's why you're still alive, even after all your comrades fell to the aliens.  As far as you can tell, you're one of the last active operators in this hellhole."
-  }
+  },
+  {
+    "type": "profession",
+    "id": "tailor",
+    "copy-from": "tailor",
+    "name": "Tailor",
+    "description": "Tailoring may not seem like the most useful skill during an alien invasion.  Most people wouldn't expect a simple tailor to live very long.  This is your opportunity to prove them wrong."
+  },
+  {
+    "type": "profession",
+    "id": "basketball_player",
+    "copy-from": "basketball_player",
+    "name": "Basketball Player",
+    "description": "Your first major game was abruptly cancelled when the aliens came and most of the court got turned into hideous mutants.  Luck, Quick feet and good reflexes meant you were among the lucky few to escape the stadium alive."
+  },
+  {
+    "type": "profession",
+    "id": "football_player",
+    "copy-from": "football_player",
+    "name": "Football Player",
+    "description": "Your epic touchdown was ruined when your coach got hit by the aliens bioweapon.  Now you're first pick in the resistance draft."
+  },
+  {
+    "type": "profession",
+    "id": "marine",
+    "copy-from": "marine",
+    "name": "Marine Infantryman",
+    "description": "You are one of the few and the proud: a member of the US Marine Corps. With High Command unreachable and you deep in Hostile Territory, it falls to you to teach the aliens why they call you \"Devil Dogs\". Semper Fi!"
+  },
+  {
+    "type": "profession",
+    "id": "veteran",
+    "copy-from": "veteran",
+    "name": "Military Veteran",
+    "description": "After being discharged from the armed forces, you were sent to a veterans' hospital for treatment.  Just when you thought you'd overcome your traumas and readjusted to civilian life, the world has come to an end and your worst experiences seem to repeat themselves, but seemingly with reversed roles"
+  },
+  {
+    "type": "profession",
+    "id": "rifleman",
+    "copy-from": "rifleman",
+    "name": "Rifleman",
+    "description": "When you were young, you dreamed of being a soldier. War is hell and hell is war, but you never thought they would come from above."
+  },
+  {
+    "type": "profession",
+    "id": "seal_sniper",
+    "copy-from": "seal_sniper",
+    "name": "Navy SEAL Marksman",
+    "description": "Recruited into the ranks of the US Navy's Special Warfare forces as a designated sniper, your training in precision marksmanship and maritime operations was extensive.  As a proficient soldier and combative in all respects, you provided overwatch and long-range elimination services in the line of duty.  Now, with naval command gone or in hiding and your spotter MIA, your skills with a rifle and covert operations are the only things standing between you and the Enemy."
+  },
+  {
+    "type": "profession",
+    "id": "heli_pilot",
+    "copy-from": "heli_pilot",
+    "name": "Helicopter Pilot",
+    "description": "You got your pilot's license and earned a living ferrying businessmen and tourists around.  The Aliens have grounded you for now, but the sky still calls to you…"
+  },
+  {
+    "type": "profession",
+    "id": "k9_cop",
+    "copy-from": "k9_cop",
+    "name": "K9 Officer",
+    "description": "You spent your career busting drug smugglers with your faithful canine companion.  Now the world has ended, and none of that matters anymore.  Your loyal dog is still at your side, though, ready to face the Invasion with you."
+  },
+  {
+    "type": "profession",
+    "id": "horse_cop",
+    "copy-from": "horse_cop",
+    "name": "Mounted Police Officer",
+    "description": "You have spent many long years forging a bond with your equine companion, from running down common thugs, to entertaining kids when you ride on by.  The Invasion is upon you, but at least you have each other."
+  },
+  {
+    "type": "profession",
+    "id": "dog_lover",
+    "copy-from": "dog_lover",
+    "name": "Dog Lover",
+    "description": "You spent your days running around with your faithful dogs by your side.  When the world ended, you grabbed your companions along with some of their things to protect them.  The Aliens could get you any moment now, but at least your canine friends won't have to worry about the rain."
+  },
+  {
+    "type": "profession",
+    "id": "cop",
+    "copy-from": "cop",
+    "name": "Police Officer",
+    "description": "Just a small-town deputy, you got the call and were ready to come to the rescue.  Soon it was you who needed rescuing, and you were lucky to escape with your life. You swore to protect your country against all enemies, extraterrestrial, home or international.",
+    "//": "Fight"
+  },
+  {
+    "type": "profession",
+    "id": "detective",
+    "copy-from": "detective",
+    "name": "Police Detective",
+    "description": "You were on the brink of a major breakthrough in your latest homicide case when the Aliens struck.  Now your prime suspect is dead.  Everyone's dead.  You could really use a smoke."
+  },
+  {
+    "type": "profession",
+    "id": "bus_driver",
+    "copy-from": "bus_driver",
+    "name": "Bus Driver",
+    "description": "You made a living driving kids to and from school, a career choice you regretted almost every day.  You were in the Depot when the Bombs started dropping and decided to use the first means of escape you had.  You escaped, but now you've gotten lost.  At least you're getting a break from the hellish screams of children, though you're starting to hear new ones…"
+  },
+  {
+    "type": "profession",
+    "id": "cop_car",
+    "copy-from": "cop_car",
+    "name": "Police Interceptor",
+    "description": "As an on-duty officer, you were in the process of evacuating people, but soon the people you swore to protect turned against you. You hopped in your car and drove for your life."
+  },
+  {
+    "type": "profession",
+    "id": "milita_car",
+    "copy-from": "militia_car",
+    "name": "Milita",
+    "description": "ou and a group of like-minded individuals built a hideout in the woods from which to launch looting raids in a jury-rigged pickup.  The last run went bad, and all your comrades were killed or captured.  Every breath you take now is an act of rebellion against the Invader.  Do not let that flame of hope perish inside you."
+  } 
 ]

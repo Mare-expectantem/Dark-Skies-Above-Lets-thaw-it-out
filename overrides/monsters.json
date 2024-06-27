@@ -1,16 +1,9 @@
 [
   {
     "id": "mon_rattlesnake_giant",
-    "copy-from": "mon_rattlesnake_giant",
     "type": "MONSTER",
     "name": "giant rattlesnake",
-    "delete": { "categories": [ "WILDLIFE" ] }
-  },
-  {
-    "id": "mon_nakedmolerat_giant",
-    "copy-from": "mon_nakedmolerat_giant",
-    "type": "MONSTER",
-    "name": "gigantic naked mole-rat",
+    "copy-from": "mon_rattlesnake_giant",
     "delete": { "categories": [ "WILDLIFE" ] }
   },
   {
@@ -18,13 +11,6 @@
     "copy-from": "mon_crow_mutant_small",
     "type": "MONSTER",
     "name": { "str": "oversized crow" },
-    "delete": { "categories": [ "WILDLIFE" ] }
-  },
-  {
-    "id": "mon_cockatrice",
-    "copy-from": "mon_cockatrice",
-    "type": "MONSTER",
-    "name": { "str": "cockatrice" },
     "delete": { "categories": [ "WILDLIFE" ] }
   },
   {
@@ -53,13 +39,6 @@
     "type": "MONSTER",
     "name": { "str": "iridescent cat" },
     "copy-from": "mon_cat_mutant_prism",
-    "delete": { "categories": [ "WILDLIFE" ] }
-  },
-  {
-    "id": "mon_cat_mutant_kitten_prism",
-    "type": "MONSTER",
-    "name": { "str": "iridescent kitten" },
-    "copy-from": "mon_cat_mutant_kitten_prism",
     "delete": { "categories": [ "WILDLIFE" ] }
   },
   {
