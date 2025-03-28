@@ -1,4 +1,10 @@
-Currently Playable without Bugs
+Currently Playable
+# To-Do Fixing
+ - Mapgen
+ - - This means the loot generation errors
+ - - And the fact that evacuation shelters aren't connected to the roads. No clue how to do that.
+ - - Also figure out whats up with the Isherwoods and FEMA Camp Errors. Could be the blacklist?
+ - Also look at how the Monstergroup IDs will work and if they can already be implemented that way.
 
 # Dark Skies Above
 A partial conversion mod for Cataclysm: DDA, taking inspiration from XCOM 2, Half Life 2, and similar 'alien invasion' media to present a game of survival against an alien occupation force. WIP, but will feature new quests, NPCs, locations, and enemies.
