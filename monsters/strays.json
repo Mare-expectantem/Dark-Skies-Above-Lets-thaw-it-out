@@ -255,11 +255,11 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 1 } ],
     "armor": { "bash": 6, "cut": 8, "stab": 10, "bullet": 4 },
     "vision_night": 3,
-    "harvest": "zombie",
+    "harvest": "zombie_hulk",
     "path_settings": { "max_dist": 5 },
     "special_attacks": [ [ "BOOMER_GLOW", 20 ], [ "SHRIEK_ALERT", 20 ], [ "SHRIEK_STUN", 1 ] ],
     "death_drops": "mon_zombie_hulk_death_drops",
-    "reproduction": { "baby_monster": "dks_mon_crystal_mite", "baby_count": 5, "baby_timer": 60 },
+    "reproduction": { "baby_type": { "baby_monster": "dks_mon_crystal_mite"}, "baby_count": 5, "baby_timer": 60 },
     "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
     "death_function": { "effect": { "id": "death_boomer_glow", "hit_self": true, "min_level": 1 }, "message": "A %s explode!" },
@@ -348,7 +348,7 @@
     "melee_damage": [ { "damage_type": "electric", "amount": 8 } ],
     "dodge": 2,
     "luminance": 8,
-    "harvest": "zombie",
+    "harvest": "zombie_humanoid_electric",
     "path_settings": { "max_dist": 4 },
     "special_attacks": [ [ "SHOCKSTORM", 25 ] ],
     "special_when_hit": [ "ZAPBACK", 100 ],
@@ -499,7 +499,7 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 5 } ],
     "dodge": 4,
     "vision_night": 5,
-    "harvest": "zombie",
+    "harvest": "zombie_humanoid",
     "path_settings": { "max_dist": 15 },
     "special_attacks": [
       {
@@ -603,7 +603,7 @@
     "armor": {"bash":12, "cut": 30, "stab": 30, "bullet": 24 },
     "vision_day": 30,
     "vision_night": 3,
-    "harvest": "zombie",
+    "harvest": "mutant_human",
     "path_settings": { "max_dist": 5 },
     "special_attacks": [
       [ "SMASH", 30 ],
@@ -652,7 +652,7 @@
     "melee_dice": 4,
     "melee_dice_sides": 8,
     "armor": {"bash":20, "cut": 45, "stab": 45, "bullet": 3 },
-    "harvest": "zombie",
+    "harvest": "zombie_humanoid",
     "path_settings": { "max_dist": 6 },
     "special_attacks": [
       [ "SMASH", 20 ],
@@ -737,7 +737,7 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 3 } ],
     "dodge": 2,
     "vision_night": 5,
-    "harvest": "zombie_fur",
+    "harvest": "zombie_dog",
     "path_settings": { "max_dist": 3 },
     "special_attacks": [ [ "scratch", 10 ], { "type": "bite", "cooldown": 5 } ],
     "upgrades": { "half_life": 21, "into": "dks_mon_stray_wretch" },
@@ -781,7 +781,7 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 2 } ],
     "dodge": 3,
     "vision_night": 5,
-    "harvest": "zombie_fur",
+    "harvest": "zombie_dog",
     "path_settings": { "max_dist": 5 },
     "special_attacks": [
       { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 10 } ] },
@@ -832,7 +832,7 @@
     "armor": {"bash":10, "cut": 17, "stab": 20, "bullet": 1 },
     "dodge": 2,
     "vision_night": 5,
-    "harvest": "zombie_fur",
+    "harvest": "zombie_dog",
     "path_settings": { "max_dist": 5 },
     "special_attacks": [
       { "id": "slam", "damage_max_instance": [ { "damage_type": "bash", "amount": 15 } ] },
@@ -928,7 +928,7 @@
     "melee_damage": [ { "damage_type": "electric", "amount": 4 } ],
     "dodge": 3,
     "luminance": 4,
-    "harvest": "zombie",
+    "harvest": "zombie_amalgamation",
     "path_settings": { "max_dist": 10 },
     "special_attacks": [ { "type": "leap", "cooldown": 10, "max_range": 5 } ],
     "special_when_hit": [ "ZAPBACK", 100 ],
@@ -959,13 +959,27 @@
     "armor": {"bash":10, "cut": 25, "stab": 40, "bullet": 14 },
     "dodge": 3,
     "vision_night": 5,
-    "harvest": "zombie_fur",
+    "harvest": "zombie_dog",
     "path_settings": { "max_dist": 10 },
-    "reproduction": { "baby_monster": "dks_mon_stray_wretch", "baby_count": 2, "baby_timer": 14 },
+    "reproduction": { "baby_type": { "baby_monster": "dks_mon_stray_wretch" }, "baby_count": 2, "baby_timer": 14 },
     "special_attacks": [
-      [ "STRETCH_ATTACK", 20 ],
-      { "id": "ranged_pull", "cooldown": 10, "grab_data": { "pull_weight_ratio": 1 } },
-      { "type": "leap", "cooldown": 10, "max_range": 10, "min_consider_range": 3, "max_consider_range": 8 },
+      {
+        "id": "stretch_attack",
+        "cooldown": 20,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 12 } ]
+      },
+      { 
+        "id": "ranged_pull", 
+        "cooldown": 10, 
+        "grab_data": { "pull_weight_ratio": 1 } 
+      },
+      { 
+        "type": "leap", 
+        "cooldown": 10, 
+        "max_range": 10, 
+        "min_consider_range": 3, 
+        "max_consider_range": 8 
+      },
       {
         "type": "bite",
         "cooldown": 10,
@@ -1060,7 +1074,12 @@
     "harvest": "exempt",
     "special_attacks": [     
     { "id": "ranged_pull", "cooldown": 10, "grab_data": { "pull_weight_ratio": 1 } },
-    [ "STRETCH_ATTACK", 20 ] ],
+    {
+      "id": "stretch_attack",
+      "cooldown": 20,
+      "damage_max_instance": [ { "damage_type": "cut", "amount": 16 } ]
+    }
+    ],
     "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": { "message": "The %s disintegrates!", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "IMMOBILE", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
@@ -1145,13 +1164,21 @@
     "vision_day": 5,
     "vision_night": 5,
     "harvest": "exempt",
-    "reproduction": { "baby_monster": "dks_mon_crystal_mite", "baby_count": 4, "baby_timer": 60 },
-    "special_attacks": [ [ "BOOMER_GLOW", 20 ], [ "STRETCH_ATTACK", 20 ], { "id": "longswipe" } ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
-    "death_function": {
-      "effect": { "id": "death_boomer_glow", "hit_self": true, "min_level": 1 },
-      "message": "A %s explode!",
-      "corpse_type": "NO_CORPSE"
+    "reproduction": { "baby_type": { "baby_monster": "dks_mon_crystal_mite" }, "baby_count": 4, "baby_timer": 60 },
+    "special_attacks": [ 
+      [ "BOOMER_GLOW", 20 ], 
+      {
+        "id": "stretch_attack",
+        "cooldown": 20,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 24 } ]
+      }, 
+      { 
+        "id": "longswipe" } ],
+        "special_when_hit": [ "ZAPBACK", 100 ],
+        "death_function": {
+        "effect": { "id": "death_boomer_glow", "hit_self": true, "min_level": 1 },
+        "message": "A %s explode!",
+        "corpse_type": "NO_CORPSE"
     },
     "flags": [ "SEES", "IMMOBILE", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
   },

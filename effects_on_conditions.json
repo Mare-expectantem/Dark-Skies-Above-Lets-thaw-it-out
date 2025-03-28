@@ -1,0 +1,15 @@
+[
+    {
+        "type": "effect_on_condition",
+        "id": "alien_reinforcements",
+        "effect": {
+            "u_spawn_monster": "dks_mon_skirmsoldier",
+            "real_count": 1,
+            "min_radius": 1,
+            "max_radius": 5,
+            "outdoor_only": true,
+            "spawn_message": "An Alien soldier lands nearby",
+            "spawn_message_plural": "Alien soldiers land nearby"
+        }
+    }
+]

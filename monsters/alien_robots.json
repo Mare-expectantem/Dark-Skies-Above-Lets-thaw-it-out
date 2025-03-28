@@ -42,7 +42,16 @@
     "dodge": 3,
     "armor": { "bash": 8, "cut": 10, "stab": 8, "bullet": 6 },
     "luminance": 5,
-    "special_attacks": [ [ "SEARCHLIGHT", 1 ], [ "DSA_DRONE_SCAN", 2 ] ],
+    "special_attacks": [ 
+      [ "SEARCHLIGHT", 1 ], 
+      {
+      "type":"spell",
+      "id": "dks_summon_alrp",
+      "spell_data": {"id": "dks_summon_alrp", "min_level": 1},
+      "monster_message": " The %1$s scans %3$s. \n It's calling for reinforcements!",
+      "cooldown": 300
+      }
+  ],
     "path_settings": { "max_dist": 30 },
     "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "death_function": { "corpse_type": "BROKEN" },
@@ -72,7 +81,13 @@
     "vision_night": 5,
     "special_attacks": [
       [ "TAZER", 12 ],
-      [ "DSA_DRONE_SCAN", 5 ],
+      {
+        "type":"spell",
+        "id": "dks_summon_alrp",
+        "spell_data": {"id": "dks_summon_alrp", "min_level": 1},
+        "monster_message": " The %1$s scans %3$s. \n It's calling for reinforcements!",
+        "cooldown": 300
+        },
       { "id": "tool_slash" },
       {
         "type": "spell",
