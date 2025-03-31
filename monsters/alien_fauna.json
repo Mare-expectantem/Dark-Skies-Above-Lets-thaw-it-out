@@ -107,7 +107,7 @@
     "anger_triggers": [ "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "PET_WONT_FOLLOW", "PET_MOUNTABLE" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "KEENNOSE", "PATH_AVOID_DANGER", "ANIMAL", "PET_WONT_FOLLOW", "PET_MOUNTABLE" ]
   },
   {
     "id": "dks_mon_packliz",
@@ -146,7 +146,7 @@
       "KEENNOSE",
       "WARM",
       "SWARMS",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "GROUP_MORALE",
       "ANIMAL",
       "ATTACKMON",
@@ -181,7 +181,7 @@
       "feed": "The %s seems to like you!  It runs around your legs and seems friendly.",
       "pet": "The %s runs around your leg."
     },
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "FLIES", "CANPLAY", "SWARMS" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER", "FLIES", "CANPLAY", "SWARMS" ]
   },
   {
     "id": "dks_mon_bileworm",

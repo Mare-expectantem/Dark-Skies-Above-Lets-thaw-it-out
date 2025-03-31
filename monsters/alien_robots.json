@@ -109,7 +109,7 @@
       "NOHEAD",
       "HIT_AND_RUN",
       "PRIORITIZE_TARGETS",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "CAN_OPEN_DOORS"
     ]
   }

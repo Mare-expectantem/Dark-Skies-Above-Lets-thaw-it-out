@@ -56,13 +56,6 @@
     "delete": { "categories": [ "WILDLIFE" ] }
   },
   {
-    "id": "mon_wolf_mutant_huge",
-    "type": "MONSTER",
-    "name": { "str": "dire wolf", "str_pl": "dire wolves" },
-    "copy-from": "mon_wolf_mutant_huge",
-    "delete": { "categories": [ "WILDLIFE" ] }
-  },
-  {
     "id": "mon_deer_mutant_spider",
     "type": "MONSTER",
     "name": { "str": "spideer" },

@@ -523,7 +523,7 @@
       "BASHES",
       "POISON",
       "PUSH_MON",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "FILTHY",
       "REVIVES"
     ]
@@ -996,7 +996,7 @@
       "POISON",
       "CLIMBS",
       "FILTHY",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "REVIVES"
     ]
   },
@@ -1214,7 +1214,7 @@
       "WARM",
       "NOGIB",
       "ELECTRIC",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "NO_BREATHE",
       "NOHEAD",
       "ARTHROPOD_BLOOD",

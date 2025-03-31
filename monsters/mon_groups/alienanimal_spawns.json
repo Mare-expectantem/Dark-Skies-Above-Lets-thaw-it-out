@@ -1,7 +1,7 @@
 [
   {
     "type": "monstergroup",
-    "name": "GROUP_FOREST",
+    "id": "GROUP_FOREST",
     "is_animal": true,
     "monsters": [
       { "monster": "dks_mon_mossliz", "weight": 10, "cost_multiplier": 7, "starts": 72 },
@@ -20,7 +20,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SWAMP",
+    "id": "GROUP_SWAMP",
     "is_animal": true,
     "monsters": [
       { "monster": "dks_mon_mossliz", "weight": 13, "cost_multiplier": 4, "starts": 72 },
@@ -39,7 +39,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_RIVER",
+    "id": "GROUP_RIVER",
     "is_animal": true,
     "monsters": [
       { "monster": "dks_mon_lurker", "weight": 1, "cost_multiplier": 25, "starts": 96 },
@@ -48,7 +48,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SEWER",
+    "id": "GROUP_SEWER",
     "is_animal": true,
     "monsters": [
       { "monster": "dks_mon_lurker_sewer", "weight": 5, "cost_multiplier": 10, "starts": 96 },
@@ -64,20 +64,20 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SAFE",
+    "id": "GROUP_SAFE",
     "is_safe": true,
     "is_animal": true,
     "monsters": [ { "monster": "dks_mon_wisp", "weight": 1, "starts": 48 } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_WORM",
+    "id": "GROUP_WORM",
     "is_animal": true,
     "monsters": [ { "monster": "dks_mon_bileworm", "weight": 30, "cost_multiplier": 20 } ]
   },
   {
     "type": "monstergroup",
-    "name": "DUMP_ANIMALS",
+    "id": "DUMP_ANIMALS",
     "monsters": [ { "monster": "dks_mon_bileworm", "weight": 10, "starts": 48 } ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "type": "monstergroup",
-    "name": "DKS_GROUP_STRAY_UPGRADE",
+    "id": "DKS_GROUP_STRAY_UPGRADE",
     "monsters": [
       { "monster": "mon_null", "weight": 75 },
       { "monster": "dks_mon_stray_heavy", "weight": 250, "cost_multiplier": 2 },
@@ -14,7 +14,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "DKS_WRETCH_UPGRADE",
+    "id": "DKS_WRETCH_UPGRADE",
     "monsters": [
       { "monster": "mon_null", "weight": 400 },
       { "monster": "dks_mon_stray_wretch_tendrils", "weight": 200, "cost_multiplier": 10 },
@@ -25,7 +25,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "MON_CRYSTAL_UPGRADE",
+    "id": "MON_CRYSTAL_UPGRADE",
     "monsters": [
       { "monster": "dks_mon_crystal_wall", "weight": 510 },
       { "monster": "dks_mon_crystal_shriek", "weight": 125, "cost_multiplier": 5 },
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "name": "GROUP_PARK_SCENIC",
+    "id": "GROUP_PARK_SCENIC",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 100, "pack_size": [ 2, 3 ] },
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "name": "GROUP_PARK_PLAYGROUND",
+    "id": "GROUP_PARK_PLAYGROUND",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray_child", "weight": 295, "pack_size": [ 5, 12 ] },
@@ -55,7 +55,7 @@
     ]
   },
   {
-    "name": "GROUP_PARK_DOG",
+    "id": "GROUP_PARK_DOG",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 125, "pack_size": [ 2, 3 ] },
@@ -66,7 +66,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE",
+    "id": "GROUP_ZOMBIE",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 1, "cost_multiplier": 7, "pack_size": [ 5, 20 ] },
       { "monster": "dks_mon_stray", "weight": 1, "cost_multiplier": 13, "pack_size": [ 15, 50 ] },
@@ -102,7 +102,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_VANILLA",
+    "id": "GROUP_VANILLA",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 266, "cost_multiplier": 0 },
       { "monster": "dks_mon_stray_child", "weight": 100, "cost_multiplier": 0 },
@@ -112,7 +112,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_POLICE",
+    "id": "GROUP_POLICE",
     "//": "+30% cops",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 100, "cost_multiplier": 2 },
@@ -138,7 +138,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_HOUSE",
+    "id": "GROUP_HOUSE",
     "//": "+15% child",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 130, "cost_multiplier": 2 },
@@ -164,7 +164,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_PREPPER_HOUSE",
+    "id": "GROUP_PREPPER_HOUSE",
     "monsters": [
       { "monster": "dks_mon_stray_heavy", "weight": 180, "cost_multiplier": 0 },
       { "monster": "dks_mon_stray_soldier", "weight": 10, "cost_multiplier": 3 },
@@ -182,7 +182,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_PHARM",
+    "id": "GROUP_PHARM",
     "//": "+13% fast",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 130, "cost_multiplier": 2 },
@@ -207,7 +207,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ELECTRO",
+    "id": "GROUP_ELECTRO",
     "//": "+15% electric",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 130, "cost_multiplier": 2 },
@@ -233,7 +233,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_GROCERY",
+    "id": "GROUP_GROCERY",
     "//": "+15% fat",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 280, "cost_multiplier": 2 },
@@ -259,7 +259,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_PUBLICWORKERS",
+    "id": "GROUP_PUBLICWORKERS",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 100, "cost_multiplier": 5 },
       { "monster": "dks_mon_stray_big", "weight": 26, "cost_multiplier": 5 },
@@ -270,7 +270,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_MAYBE_ZOMBIE",
+    "id": "GROUP_MAYBE_ZOMBIE",
     "//": "10% chance of a zombie",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 40, "cost_multiplier": 0, "pack_size": [ 1, 5 ] },
@@ -282,12 +282,12 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_FAT_BASE",
+    "id": "GROUP_ZOMBIE_FAT_BASE",
     "monsters": [ { "monster": "dks_mon_stray_big", "weight": 40, "cost_multiplier": 2 } ]
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_FAT",
+    "id": "GROUP_ZOMBIE_FAT",
     "monsters": [
       { "monster": "dks_mon_stray_eater", "weight": 20, "cost_multiplier": 0 },
       { "monster": "dks_mon_stray_big", "weight": 480, "cost_multiplier": 2 }
@@ -295,7 +295,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_GRAB",
+    "id": "GROUP_ZOMBIE_GRAB",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 40, "cost_multiplier": 0 },
       { "monster": "dks_mon_stray_wretch", "weight": 40, "cost_multiplier": 0 },
@@ -304,7 +304,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SCHOOL",
+    "id": "GROUP_SCHOOL",
     "//": "School monster spawns.",
     "monsters": [
       { "monster": "dks_mon_stray_child", "weight": 650 },
@@ -324,7 +324,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SMALL_STATION",
+    "id": "GROUP_SMALL_STATION",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 55, "cost_multiplier": 4, "pack_size": [ 1, 2 ] },
       { "monster": "dks_mon_stray_heavy", "weight": 50, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
@@ -333,7 +333,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_LARGE_STATION",
+    "id": "GROUP_LARGE_STATION",
     "monsters": [
       { "monster": "dks_mon_stray_heavy", "weight": 55, "cost_multiplier": 4, "pack_size": [ 1, 2 ] },
       { "monster": "dks_mon_stray", "weight": 50, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
@@ -342,7 +342,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_CHURCH_ZOMBIE",
+    "id": "GROUP_CHURCH_ZOMBIE",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 1, "cost_multiplier": 7, "pack_size": [ 5, 10 ] },
       { "monster": "dks_mon_stray", "weight": 1, "cost_multiplier": 13, "pack_size": [ 15, 20 ] },
@@ -364,7 +364,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_PRISON",
+    "id": "GROUP_ZOMBIE_PRISON",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 350, "cost_multiplier": 0 },
       { "monster": "dks_mon_stray_crackle", "weight": 10, "cost_multiplier": 0 }
@@ -372,7 +372,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_COP",
+    "id": "GROUP_ZOMBIE_COP",
     "monsters": [
       { "monster": "dks_mon_stray_cop", "weight": 100, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_cop", "weight": 50, "cost_multiplier": 4, "pack_size": [ 2, 3 ] },
@@ -381,7 +381,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_HOSPITAL",
+    "id": "GROUP_HOSPITAL",
     "//": "Hospital monster spawns. Same as GROUP_ZOMBIE, but without Z-dogs.",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 1, "cost_multiplier": 7, "pack_size": [ 5, 20 ] },
@@ -418,7 +418,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_STEEL_MILL",
+    "id": "GROUP_STEEL_MILL",
     "//": "Steel mill monster spawns.",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 1, "cost_multiplier": 7, "pack_size": [ 5, 20 ] },
@@ -454,7 +454,7 @@
     ]
   },
   {
-    "name": "GROUP_MALL",
+    "id": "GROUP_MALL",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 100 },
@@ -477,7 +477,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_SEXSHOP_A",
+    "id": "GROUP_ZOMBIE_SEXSHOP_A",
     "monsters": [
       { "monster": "dks_mon_stray_cop", "weight": 250, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_cop", "weight": 125, "cost_multiplier": 2, "pack_size": [ 2, 3 ] },
@@ -486,11 +486,11 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_ZOMBIE_SEXSHOP_B",
+    "id": "GROUP_ZOMBIE_SEXSHOP_B",
     "monsters": [ { "monster": "dks_mon_stray_big", "weight": 500, "cost_multiplier": 2 } ]
   },
   {
-    "name": "GROUP_FIRE",
+    "id": "GROUP_FIRE",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray_cop", "weight": 100, "cost_multiplier": 2, "pack_size": [ 3, 5 ] },
@@ -498,12 +498,12 @@
     ]
   },
   {
-    "name": "GROUP_PLAIN",
+    "id": "GROUP_PLAIN",
     "type": "monstergroup",
     "monsters": [ { "monster": "dks_mon_stray", "weight": 40 } ]
   },
   {
-    "name": "GROUP_HOTEL_POOL",
+    "id": "GROUP_HOTEL_POOL",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray", "weight": 100, "cost_multiplier": 2 },
@@ -512,7 +512,7 @@
     ]
   },
   {
-    "name": "GROUP_HOTEL_GYM",
+    "id": "GROUP_HOTEL_GYM",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray_big", "weight": 30, "cost_multiplier": 2 },
@@ -521,7 +521,7 @@
     ]
   },
   {
-    "name": "GROUP_POOL_NOKIDS",
+    "id": "GROUP_POOL_NOKIDS",
     "type": "monstergroup",
     "monsters": [
       { "monster": "dks_mon_stray_heavy", "weight": 100, "cost_multiplier": 2 },
