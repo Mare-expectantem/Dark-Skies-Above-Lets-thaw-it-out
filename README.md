@@ -2,8 +2,6 @@ Currently Playable
 # To-Do Fixing
  - Mapgen
  - - The fact that evacuation shelters aren't connected to the roads. No clue how to do that.
- - Also look at how the Monstergroup IDs will work and if they can already be implemented that way. This isn't an error YET.
- - The circular dependencies. Note: Find some mod that removes individual enemies and see how that one does it.
 
 # The Defrosting
 Dark Skies Above was put into A seperate Repository after the Origianl Author ceased upkeep and its regualar maintainance became a drain on resources. As my first prioriy, I am trying to get this whole thing into an error-and-bug-free state. At the time of writing this is mostly done, see the To-Do Fixing point. I do plan on continuing the mod after that, this does however mean that the original authors ideas and Designs aren't necessarily representative of the direction this mod will go. I do however plan to keep most things that are in here, I have some nice ideas there.
