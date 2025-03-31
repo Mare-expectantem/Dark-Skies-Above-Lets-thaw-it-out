@@ -1,6 +1,5 @@
 [
   {
-    "//": "mostly removes areas with their own storylines, static NPCs, and the like. some will be returned with time",
     "type": "overmap_special",
     "id": "Necropolis",
     "overmaps": [  ],
@@ -38,12 +37,11 @@
   },
   {
     "type": "overmap_special",
-    "id": "Isherwood Farms",
+    "id": "Isherwood Farms Mutable",
     "overmaps": [  ],
     "occurrences": [ 0, 0 ]
   },
   {
-    "//": "sorry Mr. Lapin ;w;. temporary until I work on NPCs",
     "type": "overmap_special",
     "id": "Cabin_Lapin",
     "overmaps": [  ],
@@ -56,9 +54,8 @@
     "occurrences": [ 0, 0 ]
   },
   {
-    "//": "there will be 'FEMA camps' in the future, but almost even more sinister",
     "type": "overmap_special",
-    "id": "FEMA Camp",
+    "id": "fema_camp_mutable",
     "overmaps": [  ],
     "occurrences": [ 0, 0 ]
   },
