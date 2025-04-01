@@ -1,7 +1,6 @@
-Currently Playable
-# To-Do Fixing
- - Mapgen
- - - The fact that evacuation shelters aren't connected to the roads. No clue how to do that.
+Currently Playable. To my knowledge, without bugs, at the time of 01.04. No, this is not an April fools joke.
+# To-Do
+ - I should probably sort the various file contents into a more readable form.
 
 # The Defrosting
 Dark Skies Above was put into A seperate Repository after the Origianl Author ceased upkeep and its regualar maintainance became a drain on resources. As my first prioriy, I am trying to get this whole thing into an error-and-bug-free state. At the time of writing this is mostly done, see the To-Do Fixing point. I do plan on continuing the mod after that, this does however mean that the original authors ideas and Designs aren't necessarily representative of the direction this mod will go. I do however plan to keep most things that are in here, I have some nice ideas there.
