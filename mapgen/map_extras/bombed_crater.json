@@ -26,7 +26,7 @@
     "object": {
       "place_item": [ { "item": "tool_dsa_alien_bomb_act", "x": 12, "y": 12, "amount": 1, "custom-flags": [ "ACTIVATE_ON_PLACE" ] } ]
     }
-  },
+    },
   {
     "id": "mx_dsa_bombed_crater",
     "type": "map_extra",

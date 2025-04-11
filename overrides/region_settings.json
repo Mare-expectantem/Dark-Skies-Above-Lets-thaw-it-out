@@ -17,7 +17,7 @@
     "city": { "shops": { "office_tower_hiddenlab": 0, "office_tower_collapsed": 0 } },
     "map_extras": {
       "forest": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_spider": 0 } },
-      "forest_thick": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_shia": 0, "mx_spider": 0, "mx_jabberwock": 0 } },
+      "forest_thick": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_spider": 0, "mx_jabberwock": 0 } },
       "forest_water": { "extras": { "mx_portal": 0, "mx_portal_in": 0, "mx_spider": 0, "mx_nest_dermatik": 0 } },
       "field": {
         "extras": {
@@ -27,7 +27,7 @@
           "mx_helicopter": 3,
           "mx_military": 1,
           "mx_science": 1,
-          "mx_crater": 5,
+          "mx_dsa_bombed_crater": 5,
           "mx_trees": 200,
           "mx_casings": 300,
           "mx_corpses": 100
@@ -48,7 +48,6 @@
           "mx_drugdeal": 20,
           "mx_supplydrop": 5,
           "mx_minefield": 80,
-          "mx_crater": 10,
           "mx_roadworks": 100,
           "mx_casings": 100,
           "mx_corpses": 100,
@@ -58,21 +57,20 @@
       "build": {
         "chance": 2,
         "extras": {
-          "mx_dsa_bombed_crater": 200,
           "mx_house_spider": 0,
           "mx_house_wasp": 0,
           "mx_military": 1,
           "mx_science": 1,
           "mx_collegekids": 35,
           "mx_portal": 0,
-          "mx_crater": 70,
+          "mx_dsa_bombed_crater": 200,
           "mx_portal_in": 0,
-          "mx_point_burned_ground": 200,
           "mx_casings": 60,
           "mx_looters": 2,
           "mx_corpses": 50
         }
       },
+      
       "marloss": { "chance": 0, "extras": { "mx_marloss_pilgrimage": 0 } },
       "subway": {
         "extras": {
@@ -88,3 +86,4 @@
     }
   }
 ]
+
