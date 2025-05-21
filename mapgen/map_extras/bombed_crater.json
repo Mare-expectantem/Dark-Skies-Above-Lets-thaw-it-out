@@ -1,7 +1,7 @@
 [
   {
     "id": "tool_dsa_alien_bomb_act",
-    "type": "TOOL",
+    "type": "ITEM",
     "category": "weapons",
     "name": { "str": "active alien bomb" },
     "description": "This is an alien bomb.  It has been activated and will soon explode, delivering its entire destructive power to everything in sight.",
@@ -21,7 +21,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "update_mapgen_id": "mx_dsa_bombed_crater",
     "object": {
       "place_item": [ { "item": "tool_dsa_alien_bomb_act", "x": 12, "y": 12, "amount": 1, "custom-flags": [ "ACTIVATE_ON_PLACE" ] } ]

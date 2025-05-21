@@ -1,23 +1,21 @@
 [
   {
     "id": "dks_blend_scrap",
-    "type": "AMMO",
+    "type": "ITEM",
     "category": "spare_parts",
     "name": { "str": "alien metal scrap" },
     "description": "Scraps and shavings of some sort of alien metal, light but tough.  It's quite pretty to look at, silvery with faint blue and green undertones.  Most people wouldn't know what to do with it.",
     "weight": "450 g",
     "volume": "250 ml",
     "price": "0 cent",
-    "stack_size": 10,
     "material": [ "dks_blend_mat" ],
     "symbol": ",",
     "color": "light_cyan",
-    "ammo_type": "components",
     "flags": [ "TRADER_AVOID" ]
   },
   {
     "id": "dks_weave_scrap",
-    "type": "TOOL",
+    "type": "ITEM",
     "category": "spare_parts",
     "name": { "str": "alien cloth scrap" },
     "description": "This is a sizable portion of fibrous synthetic cloth, flexible and resistant, but unpleasant to the touch.  Useful in crafting.",
@@ -31,7 +29,7 @@
   },
   {
     "id": "dks_polymer_scrap",
-    "type": "TOOL",
+    "type": "ITEM",
     "category": "spare_parts",
     "name": { "str": "alien polymer scrap" },
     "description": "This is a collection of strange, ivory colored plastics that are unnervingly warm to the touch.  It could be used to fabricate, repair, or reinforce.",
@@ -44,7 +42,7 @@
     "flags": [ "NO_SALVAGE","TRADER_AVOID" ]
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "dks_elecscrap",
     "symbol": ",",
     "color": "light_green",
@@ -59,7 +57,7 @@
     "flags": [ "TRADER_AVOID" ]
     },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "dks_biotech",
     "symbol": ",",
     "color": "light_red",
@@ -75,7 +73,7 @@
 
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "dks_powercell",
     "category": "spare_parts",
     "name": { "str": "alien power cell" },
@@ -90,7 +88,8 @@
     "flags": [ "NO_SALVAGE", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID" ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
     "id": "dks_biogel",
     "name": { "str": "alien hydrogel" },
     "weight": "280 g",
@@ -98,15 +97,15 @@
     "container": "30gal_drum",
     "comestible_type": "DRINK",
     "symbol": "~",
-    "quench": 5,
+    "quench": 5,  
+    "healthy": -5,
     "description": "A lump of alien hydrogel with small writhing specks in it.  Useful in crafting.  You could 'drink' it, but there's no way it would be pleasant.",
     "material": [ "dks_biogel_mat" ],
     "volume": "500 ml",
     "phase": "liquid",
     "category": "chems",
+    "fun": -12,  
     "charges": 1,
-    "fun": -12,
     "flags": [ "TRADER_AVOID" ]
-
   }
 ]

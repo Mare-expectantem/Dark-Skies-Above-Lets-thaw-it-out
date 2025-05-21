@@ -3,11 +3,11 @@
     "id": "brush_toilet",
     "name": { "str": "toilet brush", "str_pl": "toilet brushes" },
     "copy-from": "brush_toilet",
-    "type": "GENERIC",
+    "type": "ITEM",
     "description": "The aliens that have invaded Earth cannot be intimidated or humiliated - at least not meaningfully - so this stiff brush is only useful for scouring toilet bowls."
   },
   {
-    "type": "GENERIC",
+    "type": "ITEM",
     "id": "basketball",
     "copy-from": "basketball",
     "name": "basketball",

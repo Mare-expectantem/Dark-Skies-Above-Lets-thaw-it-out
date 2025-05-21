@@ -89,14 +89,14 @@
       { "monster": "dks_mon_stray_cop", "weight": 5, "cost_multiplier": 6, "pack_size": [ 2, 4 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 10, "cost_multiplier": 5 },
       { "monster": "dks_mon_stray_heavy", "weight": 20, "cost_multiplier": 5, "pack_size": [ 1, 4 ] },
-      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 10,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -125,14 +125,14 @@
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 10, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 5, "cost_multiplier": 4, "pack_size": [ 3, 5 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 30, "cost_multiplier": 5 },
-      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 10,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -151,14 +151,14 @@
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 40, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 15, "cost_multiplier": 4, "pack_size": [ 3, 5 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 30, "cost_multiplier": 5 },
-      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 15,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -169,14 +169,14 @@
       { "monster": "dks_mon_stray_heavy", "weight": 180, "cost_multiplier": 0 },
       { "monster": "dks_mon_stray_soldier", "weight": 10, "cost_multiplier": 3 },
       { "monster": "dks_mon_stray_soldier", "weight": 10, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
-      { "monster": "dks_mon_crystal_hive", "weight": 10, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_mite", "weight": 20, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_hive", "weight": 10, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_mite", "weight": 20, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 25,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -195,13 +195,13 @@
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 130, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 15, "cost_multiplier": 4, "pack_size": [ 3, 5 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 30, "cost_multiplier": 5 },
-      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 15,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -220,14 +220,14 @@
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 40, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 15, "cost_multiplier": 4, "pack_size": [ 3, 5 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 180, "cost_multiplier": 5 },
-      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 15,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -246,14 +246,14 @@
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 40, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_wretch_burnt", "weight": 15, "cost_multiplier": 4, "pack_size": [ 3, 5 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 30, "cost_multiplier": 5 },
-      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 15,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -311,14 +311,14 @@
       { "monster": "dks_mon_stray_big", "weight": 50 },
       { "monster": "dks_mon_stray_heavy", "weight": 50 },
       { "monster": "dks_mon_stray", "weight": 150 },
-      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 15,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -351,14 +351,14 @@
       { "monster": "dks_mon_stray_big", "weight": 3, "cost_multiplier": 7, "pack_size": [ 3, 5 ] },
       { "monster": "dks_mon_stray_heavy", "weight": 75, "cost_multiplier": 3 },
       { "monster": "dks_mon_stray_child", "weight": 75 },
-      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 10, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 15,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -405,14 +405,14 @@
       { "monster": "dks_mon_stray_cop", "weight": 5, "cost_multiplier": 6, "pack_size": [ 2, 4 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 10, "cost_multiplier": 5 },
       { "monster": "dks_mon_stray_heavy", "weight": 20, "cost_multiplier": 5, "pack_size": [ 1, 4 ] },
-      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 10,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -442,14 +442,14 @@
       { "monster": "dks_mon_stray_cop", "weight": 5, "cost_multiplier": 6, "pack_size": [ 2, 4 ] },
       { "monster": "dks_mon_stray_crackle", "weight": 10, "cost_multiplier": 5 },
       { "monster": "dks_mon_stray_heavy", "weight": 20, "cost_multiplier": 5, "pack_size": [ 1, 4 ] },
-      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 5, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 1, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 10,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },
@@ -464,14 +464,14 @@
       { "monster": "dks_mon_stray_cop", "weight": 20, "cost_multiplier": 2 },
       { "monster": "dks_mon_stray_cop", "weight": 5, "cost_multiplier": 6, "pack_size": [ 2, 4 ] },
       { "monster": "dks_mon_stray_child", "weight": 20 },
-      { "monster": "dks_mon_crystal_mite", "weight": 30, "cost_multiplier": 25, "starts": 1440 },
-      { "monster": "dks_mon_crystal_hive", "weight": 30, "cost_multiplier": 25, "starts": 1440 },
+      { "monster": "dks_mon_crystal_mite", "weight": 30, "cost_multiplier": 25, "starts": "1440 days" },
+      { "monster": "dks_mon_crystal_hive", "weight": 30, "cost_multiplier": 25, "starts": "1440 days" },
       {
         "monster": "dks_mon_crystal_mite",
         "weight": 30,
         "cost_multiplier": 25,
         "pack_size": [ 2, 5 ],
-        "starts": 2160
+        "starts": "2160 days"
       }
     ]
   },

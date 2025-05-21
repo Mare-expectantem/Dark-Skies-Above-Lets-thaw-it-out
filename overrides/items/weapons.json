@@ -2,7 +2,8 @@
   {
     "id": "spear_spike",
     "copy-from": "spear_spike",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "spike on a stick", "str_pl": "spikes on sticks" },
     "description": "A flimsy pole made of wood with a basic metal spike tied to it.  It's barely sharp, and crudely constructed, but it will keep an enemy out of arm's reach until you can find something better."
   }

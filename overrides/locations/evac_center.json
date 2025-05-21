@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "dks_shelter_computer",
     "object": {
       "mapgensize": [ 1, 1 ],
@@ -195,7 +194,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "weight": 50,
     "om_terrain": [ "dks_shelter" ],
     "object": {
@@ -231,7 +229,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "weight": 150,
     "om_terrain": "dks_shelter_vandal",
     "object": {
@@ -267,7 +264,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "weight": 50,
     "om_terrain": [ "dks_shelter_1", "dks_shelter_1b" ],
     "object": {
@@ -303,7 +299,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "weight": 150,
     "om_terrain": [ "dks_shelter_1_vandal", "dks_shelter_1b_vandal" ],
     "object": {
@@ -339,7 +334,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "weight": 50,
     "om_terrain": "dks_shelter_2",
     "object": {
@@ -375,7 +369,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "weight": 150,
     "om_terrain": "dks_shelter_2_vandal",
     "object": {
@@ -411,13 +404,11 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "dks_shelter_graffiti",
     "object": { "mapgensize": [ 1, 1 ], "place_graffiti": [ { "x": 0, "y": 0, "snippet": "dks_shelter_graffiti_snippets" } ] }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "dks_general_graffiti",
     "object": { "mapgensize": [ 1, 1 ], "place_graffiti": [ { "x": 0, "y": 0, "snippet": "dks_general_graffiti_snippets" } ] }
   },
