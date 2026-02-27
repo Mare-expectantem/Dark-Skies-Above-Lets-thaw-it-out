@@ -1,3 +1,5 @@
+It should be obvious but this needs to be rethought as well.
+
 # Dark Skies Above
 
 This document is intended to not only guide new potential contributors, but also help get my own thoughts on how the game will progress in text. Assume spoilers beyond this point!
